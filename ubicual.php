@@ -76,6 +76,7 @@ function update($new_instance, $old_instance) {
 	extract( $args );
 	
 	/** Proper way to enqueue scripts and styles */
+	wp_enqueue_style('style', plugins_url( 'css/style.css', __FILE__));
 	wp_enqueue_script( 'script', plugins_url( 'js/script.js', __FILE__), array( 'jquery' ));
 	
 	// these are the widget options
@@ -99,7 +100,7 @@ function update($new_instance, $old_instance) {
    }
    if( $url ) {
 
-	echo '<form action="'.$url.'" id="ubicual-form" class="" method="post" accept-charset="utf-8">';
+	echo '<form action="'.$url.'" id="ubicual-form" class="ubicual-form" method="post" accept-charset="utf-8">';
 	
 	echo '<input type="hidden" name="_method" value="POST" />';
 	echo '<input type="hidden" name="data[Contacto][redirect]" id="ContactoRedirect" />';
@@ -113,9 +114,7 @@ function update($new_instance, $old_instance) {
 	    if($value['type'] == 2){$force=" *";}
         if($value['type'] !=0){
         echo "<label>". $value['title'].$force."</label>";
-        echo "<br>";
         echo "<input type='text' name='data[Contacto][".$key."]'>";
-        echo "<br>";
         }
     };
 	
@@ -127,7 +126,7 @@ function update($new_instance, $old_instance) {
    	}
 	
 	echo '<br><br>';
-	echo '<input class="btn btn-primary" style="width:100%;" type="submit" value="'.$title.'" />';
+	echo '<input class="btn btn-default" type="submit" value="'.$title.'" />';
 	echo '</form>';
 	echo '<div id="ubmsg"></div>';
    echo '</div>';
