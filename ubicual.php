@@ -76,8 +76,8 @@ function update($new_instance, $old_instance) {
 	extract( $args );
 	
 	/** Proper way to enqueue scripts and styles */
-	wp_enqueue_style('style', plugins_url( 'css/style.css', __FILE__));
-	wp_enqueue_script( 'script', plugins_url( 'js/script.js', __FILE__), array( 'jquery' ));
+	wp_enqueue_style('styleub', plugins_url( 'css/style.css', __FILE__));
+	wp_enqueue_script( 'scriptub', plugins_url( 'js/script.js', __FILE__), array( 'jquery' ));
 	
 	// these are the widget options
 	$title = apply_filters('widget_title', $instance['title']);

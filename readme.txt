@@ -25,7 +25,7 @@ Puede crear su pagina de aterrizaje en ubicual.com.
 
 == Frequently Asked Questions ==
 
-= Como creo una landing page?=
+Como creo una landing page?
 
 Entre en https://ubicual.com, regístrese y podrá crear una landing page.
 
