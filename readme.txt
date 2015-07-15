@@ -18,10 +18,6 @@ Puede crear su pagina de aterrizaje en ubicual.com.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
 1. Suba o instale el plugin en su carpeta de plugins
 2. Vaya a Apariencia > Widgets y seleccione ubicual
 3. Posicione el widget en el lugar deseado
