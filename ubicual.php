@@ -3,7 +3,7 @@
 * Plugin Name: Ubicual
 * Plugin URI: https://ubicual.com
 * Description: Este Plugin permite incrustar formularios de landing pages en su web.
-* Version: 1.1.0
+* Version: 1.1.1
 * Author: Ubicual
 * Author URI: http://kinetica.mobi
 * License: GPL2

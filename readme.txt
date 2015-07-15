@@ -37,6 +37,9 @@ Entre en https://ubicual.com, regístrese y podrá crear una landing page.
 
 == Changelog ==
 
+= 1.1.1 =
+* Capturas de pantalla
+
 = 1.1 =
 * Cambios menores en estilos
 
@@ -44,6 +47,9 @@ Entre en https://ubicual.com, regístrese y podrá crear una landing page.
 * Primera Versión
 
 == Upgrade Notice ==
+= 1.1.1 =
+* Capturas de pantalla
+
 = 1.1 =
 * Cambios menores en estilos
 
