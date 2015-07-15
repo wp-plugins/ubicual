@@ -144,4 +144,3 @@ function update($new_instance, $old_instance) {
 add_action('widgets_init', create_function('', 'return register_widget("wp_ubicual");'));
 
 ?>
-
